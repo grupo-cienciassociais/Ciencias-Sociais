@@ -1,0 +1,393 @@
+body{
+    width: 1920px;
+    height: 5307;
+    background-color: #0E2C40;
+}
+
+.menu{
+    width: 1920px;
+    height: 800;
+    position: absolute;
+    left: 0px;
+    top: -9px;
+    background: linear-gradient(180deg, rgba(8, 25, 37, 0) 44.79%, #0C293C 100%);
+}
+#titulo{
+    position: absolute;
+    width: 617px;
+    height: 211px;
+    left: 408px;
+    top: 295px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    color: #FFFFFF;
+
+}
+
+#sombra{
+    position: absolute;
+    width: 529.13px;
+    height: 441.56px;
+    left: 964.87px;
+    top: 148.99px;
+    background: #148D8D;
+    filter: blur(150px);
+}
+#img{
+    position: absolute;
+    width: 471px;
+    height: 442px;
+    left: 1002px;
+    top: 151px;
+}
+
+#linha{
+    position: absolute;
+    width: 1280px;
+    height: 1px;
+    left: 320px;
+    top: 85px;
+    background: #148D8D;
+}
+
+#intro{
+    position: absolute;
+    width: 846px;
+    height: 172px;
+    left: 540px;
+    top: 791px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#intro2{
+    position: absolute;
+    width: 621px;
+    height: 358px;
+    left: 323px;
+    top: 963px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#intro3{
+    position: absolute;
+    width: 624px;
+    height: 336px;
+    left: 973px;
+    top: 963px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#ret1{
+position: absolute;
+width: 413px;
+height: 352px;
+left: 1184px;
+top: 1344px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+#ret2{
+position: absolute;
+width: 413px;
+height: 352px;
+left: 1184px;
+top: 1719px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+#ret3{
+position: absolute;
+width: 414px;
+height: 352px;
+left: 750px;
+top: 1344px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+#ret4{
+position: absolute;
+width: 414px;
+height: 352px;
+left: 751px;
+top: 1719px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+#ret5{
+position: absolute;
+width: 413px;
+height: 352px;
+left: 317px;
+top: 1344px;
+
+background: #D9D9D9;
+border-radius: 10px;    
+}
+#ret6{
+position: absolute;
+width: 413px;
+height: 352px;
+left: 317px;
+top: 1719px;
+
+background: #D9D9D9;
+border-radius: 10px;    
+}
+
+/*CORPO 1*/
+
+#corpo{
+position: absolute;
+width: 1920px;
+height: 800px;
+left: 1px;
+top: 2181px;
+
+background: #148D8D;
+}
+
+#nome{
+position: absolute;
+width: 305px;
+height: 88px;
+left: 1078px;
+top: 2212px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 85px;
+
+color: #FFFFFF;
+}
+#img1{
+    position: absolute;
+    width: 630px;
+    height: 346px;
+    left: 320px;
+    top: 2235px;
+    background: #BDF193;
+}
+#txtcorpo{
+    position: absolute;
+    width: 411px;
+    height: 251px;
+    left: 1078px;
+    top: 2338px;
+    
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+    
+}
+#txtcorpo2{
+    position: absolute;
+    width: 1172px;
+    height: 226px;
+    left: 320px;
+    top: 2666px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/*CORPO 2*/
+
+#txtunico{
+    position: absolute;
+    width: 621px;
+    height: 558px;
+    left: 320px;
+    top: 3140px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#img2{
+    position: absolute;
+    width: 539px;
+    height: 635px;
+    left: 1010px;
+    top: 3063px;
+    background: #BDF193;
+}
+#nome2{
+    position: absolute;
+    width: 737px;
+    height: 88px;
+    left: 323px;
+    top: 3002px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+
+/*CORPO 3*/
+
+#retangulo2{
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 3781px;
+    background: #148D8D;
+}
+#nome3{
+    position: absolute;
+    width: 737px;
+    height: 88px;
+    left: 323px;
+    top: 3794px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+#txtcorpo3{
+    position: absolute;
+    width: 1128px;
+    height: 152px;
+    left: 323px;
+    top: 3932px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#txtcorpo32{
+    position: absolute;
+    width: 482px;
+    height: 364px;
+    left: 1078px;
+    top: 4134px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#img3{
+    position: absolute;
+    width: 647px;
+    height: 364px;
+    left: 323px;
+    top: 4134px;
+    
+    background: #BDF193;
+}
+
+/*FOOTER*/
+#sbm{
+    position: absolute;
+    width: 254px;
+    height: 68px;
+    left: 894px;
+    top: 4622px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+#infosbm{
+    position: absolute;
+    width: 946px;
+    height: 259px;
+    left: 537px;
+    top: 4731px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#vt1{
+    position: absolute;
+    left: 51.59%;
+    right: 44.88%;
+    top: 94.55%;
+    bottom: 4.27%;
+    background: #FFFFFF;
+}
+#vt2{
+    position: absolute;
+    left: 51.59%;
+    right: 44.88%;
+    top: 94.55%;
+    bottom: 4.27%;
+    background: #FFFFFF;
+}
+#vt3{
+    position: absolute;
+    left: 61.33%;
+    right: 35.39%;
+    top: 94.55%;
+    bottom: 4.27%; 
+    background: #FFFFFF;
+}
+#rodape{
+    position: absolute;
+    width: 1920px;
+    height: 146px;
+    left: 0px;
+    top: 5161px;
+    
+    background: #0E2C40;   
+}
+#ano{
+    position: absolute;
+    width: 847px;
+    height: 39px;
+    left: 597px;
+    top: 5203px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(185, 184, 184, 0.4);
+          
+}
