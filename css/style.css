@@ -2,85 +2,111 @@ body{
     width: 1920px;
     height: 5307;
     background-color: #0E2C40;
+    font-family: Archivo;
 }
+
+#img_title{
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: -8px;
+}
+
+#degrade{
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 3px;
+    
+    background: linear-gradient(180deg, rgba(14, 44, 64, 0) 0%, #0E2C40 100%);
+}
+
 #op1{
     position: absolute;
     width: 46px;
     height: 16px;
     left: 340px;
     top: 37px;   
-    font-family: 'Inter';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     color: #fff; 
 }
+
 #op2{
     position: absolute;
     width: 53px;
     height: 16px;
     left: 446px;
     top: 37px;   
-    font-family: 'Inter';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     color: #fff;
 }
+
 #op3{
     position: absolute;
     width: 46px;
     height: 16px;
     left: 555px;
     top: 37px;    
-    font-family: 'Inter';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px; 
     color: #fff;  
 }
+
 #op4{
     position: absolute;
     width: 53px;
     height: 16px;
     left: 661px;
     top: 37px; 
-    font-family: 'Inter';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     color: #fff; 
 }
+
 #op5{
     position: absolute;
     width: 53px;
     height: 16px;
     left: 770px;
     top: 37px;
-    font-family: 'Inter';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     color: #fff;
 }
+
 #op6{
     position: absolute;
     width: 53px;
     height: 16px;
     left: 879px;
     top: 36px;   
-    font-family: 'Inter';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     color: #fff; 
 }
+
 .menu{
     width: 1920px;
     height: 800;
@@ -95,25 +121,25 @@ body{
     height: 79px;
     left: 324px;
     top: 295px;
-    font-family: 'Playfair Display';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
     line-height: 80px;  
-    color: #FFFFFF;
+    color: #ffffff;
 }
 #sub{
     position: absolute;
     width: 477px;
     height: 106px;
     left: 324px;
-    top: 414px;    
-    font-family: 'Playfair Display';
+    top: 450px;    
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 30px;
-    color: #FFFFFF; 
+    color: #ffffff; 
 }
 #sombra{
     position: absolute;
@@ -121,370 +147,477 @@ body{
     height: 441.56px;
     left: 964.87px;
     top: 148.99px;
-    background: #148D8D;
+    background: #082334;
     filter: blur(150px);
 }
-#img{
-    position: absolute;
-    width: 471px;
-    height: 442px;
-    left: 1002px;
-    top: 151px;
-}
 
-#linha{
-    position: absolute;
-    width: 1280px;
-    height: 1px;
-    left: 320px;
-    top: 85px;
-    background: #148D8D;
-}
 #nomeint{
 position: absolute;
-width: 362px;
+width: 390px;
 height: 88px;
 left: 789px;
 top: 819px;
-font-family: 'Playfair Display';
+font-family: Archivo;
 font-style: normal;
 font-weight: 400;
 font-size: 28px;
 line-height: 37px;
-color: #FFFFFF;
 
+color: #ffffff;
 }
+
 #intro{
     position: absolute;
     width: 846px;
     height: 172px;
     left: 538px;
-    top: 907px;
-    font-family: 'Alice';
+    top: 950px;
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
     text-align: center;  
-    color: #FFFFFF;
+    color: #ffffff;
     
 }
+
 #intro2{
     position: absolute;
     width: 621px;
     height: 358px;
     left: 320px;
-    top: 1046px;
-    font-family: 'Alice';
+    top: 1120px;
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;  
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 #intro3{
     position: absolute;
     width: 624px;
     height: 336px;
     left: 970px;
-    top: 1046px;
-    font-family: 'Alice';
+    top: 1120px;
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
-    color: #FFFFFF;
-}
-#ret1{
-    position: absolute;
-    width: 413px;
-    height: 352px;
-    left: 317px;
-    top: 1416px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-#ret2{
-    position: absolute;
-    width: 414px;
-    height: 352px;
-    left: 750px;
-    top: 1416px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-#ret3{
-    position: absolute;
-    width: 413px;
-    height: 352px;
-    left: 1184px;
-    top: 1416px;
-    background: #D9D9D9;
-    border-radius: 10px;
+    color: #ffffff;
 }
 
-#ret4{
-    position: absolute;
-    width: 413px;
-    height: 352px;
-    left: 317px;
-    top: 1791px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-#ret5{
-    position: absolute;
-    width: 414px;
-    height: 352px;
-    left: 751px;
-    top: 1791px;
-    background: #D9D9D9;
-    border-radius: 10px;    
-}
-#ret6{
-    position: absolute;
-    width: 413px;
-    height: 352px;
-    left: 1184px;
-    top: 1791px;
-
-    background: #D9D9D9;
-    border-radius: 10px;    
-}
-
-/*CORPO 1*/
+/*ADMINISTRAÇÃO*/
 
 #corpo{
 position: absolute;
 width: 1920px;
 height: 800px;
 left: 1px;
-top: 2181px;
+top: 1735px;
 
-background: #148D8D;
+background: #082334;
 }
 
 #nome{
 position: absolute;
-width: 305px;
+width: 434px;
 height: 88px;
-left: 1078px;
-top: 2212px;
+left: 1077px;
+top: 1776px;
 
-font-family: 'Playfair Display';
+font-family: Archivo;
 font-style: normal;
 font-weight: 400;
 font-size: 64px;
-line-height: 85px;
+line-height: 70px;
 
-color: #FFFFFF;
+color: #ffffff;
 }
+
 #img1{
-    position: absolute;
-    width: 630px;
-    height: 346px;
-    left: 320px;
-    top: 2235px;
-    background: #BDF193;
+position: absolute;
+width: 630px;
+height: 346px;
+left: 319px;
+top: 1779px;
+border-radius: 8px;
 }
+
 #txtcorpo{
-    position: absolute;
-    width: 411px;
-    height: 251px;
-    left: 1078px;
-    top: 2338px;
+position: absolute;
+width: 523px;
+height: 251px;
+left: 1077px;
+top: 1930px;
     
-    font-family: 'Alice';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;
+font-family: Archivo;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
     
-    color: #FFFFFF;
-    
+color: #ffffff;    
 }
+
 #txtcorpo2{
     position: absolute;
-    width: 1172px;
+    width: 1281px;
     height: 226px;
-    left: 320px;
-    top: 2666px;
-    font-family: 'Alice';
+    left: 319px;
+    top: 2230px;
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 25px;
-    color: #FFFFFF;
+    line-height: 24px;
+    color: #ffffff;
 }
 
-/*CORPO 2*/
+/*ARQUITETURA*/
+
+#img2{
+    position: absolute;
+    width: 539px;
+    height: 635px;
+    left: 1058px;
+    top: 2658px;
+    border-radius: 8px;
+}
+
+#nome2{
+    position: absolute;
+    width: 410px;
+    height: 88px;
+    left: 323px;
+    top: 2597px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+
+    color: #ffffff;
+}
 
 #txtunico{
     position: absolute;
     width: 621px;
     height: 558px;
     left: 320px;
-    top: 3140px;
-    font-family: 'Alice';
+    top: 2755px;
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
-    color: #FFFFFF;
-}
-#img2{
-    position: absolute;
-    width: 539px;
-    height: 635px;
-    left: 1010px;
-    top: 3063px;
-    background: #BDF193;
-}
-#nome2{
-    position: absolute;
-    width: 737px;
-    height: 88px;
-    left: 323px;
-    top: 3002px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 85px;
-    color: #FFFFFF;
+
+    color: #ffffff;
 }
 
-/*CORPO 3*/
+/*JORNALISMO*/
 
 #retangulo2{
     position: absolute;
     width: 1920px;
     height: 800px;
     left: 0px;
-    top: 3781px;
-    background: #148D8D;
+    top: 3345px;
+    background: #082334;
 }
+
+#img3{
+    position: absolute;
+    width: 647px;
+    height: 408px;
+    left: 323px;
+    top: 3676px;
+}
+
 #nome3{
     position: absolute;
-    width: 737px;
+    width: 322px;
     height: 88px;
     left: 323px;
-    top: 3794px;
-    font-family: 'Playfair Display';
+    top: 3358px;
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 85px;
-    color: #FFFFFF;
+
+    color: #ffffff;
 }
+
 #txtcorpo3{
     position: absolute;
-    width: 1128px;
+    width: 1277px;
     height: 152px;
     left: 323px;
-    top: 3932px;
-    font-family: 'Alice';
+    top: 3510px;
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 #txtcorpo32{
     position: absolute;
-    width: 482px;
+    width: 522px;
     height: 364px;
     left: 1078px;
-    top: 4134px;
-    font-family: 'Alice';
+    top: 3698px;
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
-    color: #FFFFFF;
+
+    color: #ffffff;
 }
-#img3{
+
+/* DIREITO */
+
+#img4{
     position: absolute;
-    width: 647px;
-    height: 364px;
+    width: 539px;
+    height: 635px;
+    left: 1061px;
+    top: 4256px;    
+}
+
+#nome4{
+    position: absolute;
+    width: 410px;
+    height: 88px;
     left: 323px;
-    top: 4134px;
+    top: 4195px;
     
-    background: #BDF193;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    
+    color: #ffffff;
+}
+
+#txtunico2{
+    position: absolute;
+    width: 621px;
+    height: 558px;
+    left: 320px;
+    top: 4353px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    
+    color: #FFFFFF;    
+}
+
+/* SOCIOLOGIA */
+
+#retangulo3{
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 4945px;
+    
+    background: #082334;
+}
+
+#img5{
+    position: absolute;
+    width: 630px;
+    height: 346px;
+    left: 320px;
+    top: 5029px;
+}
+
+#nome5{
+    position: absolute;
+    width: 325px;
+    height: 88px;
+    left: 1078px;
+    top: 4960px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    
+    color: #FFFFFF;
+    
+}
+
+#txtcorpo5{
+    position: absolute;
+    width: 522px;
+    height: 251px;
+    left: 1078px;
+    top: 5112px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    
+    color: #ffffff;
+}
+
+#txtcorpo52{
+    position: absolute;
+    width: 1280px;
+    height: 226px;
+    left: 320px;
+    top: 5480px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    
+    color: #ffffff;
+    
+}
+
+/* TEOLOGIA */
+
+#img6{
+    position: absolute;
+    width: 735px;
+    height: 422px;
+    left: 865px;
+    top: 6136px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+}
+
+#nome6{
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 323px;
+    top: 5799px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    
+    color: #ffffff;
+}
+
+#txtcorpo6{
+    position: absolute;
+    width: 1277px;
+    height: 152px;
+    left: 323px;
+    top: 5977px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    
+    color: #ffffff;
+}
+
+#txtcorpo62{
+    position: absolute;
+    width: 482px;
+    height: 385px;
+    left: 323px;
+    top: 6193px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    
+    color: #ffffff;
 }
 
 /*FOOTER*/
+
 #sbm{
     position: absolute;
     width: 254px;
     height: 68px;
-    left: 894px;
-    top: 4622px;
-    font-family: 'Jacques Francois';
+    left: 835px;
+    top: 6774px;
+    
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
-    line-height: 59px;
-    color: #FFFFFF;
+    line-height: 49px;
+    
+    color: #ffffff;
+    
 }
+
 #infosbm{
     position: absolute;
     width: 946px;
-    height: 259px;
-    left: 537px;
-    top: 4731px;
-    font-family: 'Montserrat';
+    height: 104px;
+    left: 489px;
+    top: 6876px;
+    
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 18px;
+    line-height: 20px;
     text-align: center;
+    
     color: #FFFFFF;
+    
 }
-#vt1{
-    position: absolute;
-    left: 51.59%;
-    right: 44.88%;
-    top: 94.55%;
-    bottom: 4.27%;
-    background: #FFFFFF;
-}
-#vt2{
-    position: absolute;
-    left: 51.59%;
-    right: 44.88%;
-    top: 94.55%;
-    bottom: 4.27%;
-    background: #FFFFFF;
-}
-#vt3{
-    position: absolute;
-    left: 61.33%;
-    right: 35.39%;
-    top: 94.55%;
-    bottom: 4.27%; 
-    background: #FFFFFF;
-}
+
 #rodape{
     position: absolute;
     width: 1920px;
-    height: 146px;
-    left: 0px;
-    top: 5161px;
+    height: 396px;
+    left: 2px;
+    top: 6695px;
     
-    background: #0E2C40;   
+    background: #133a54; 
 }
+
 #ano{
     position: absolute;
     width: 847px;
     height: 39px;
     left: 597px;
-    top: 5203px;
-    font-family: 'Inter';
+    top: 7203px;
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
-    color: rgba(185, 184, 184, 0.4);
+    color: #b9b8b866;
           
 }
