@@ -4,26 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstarp</title>
+    <title>CC</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <div class="wrapper">
 
-        <nav class="menu">
-            <img src="image/Imagem_Título.png" id="img_title">
-            <p id="op1">Home</p>
-            <p id="op2">Graduação</p>
-            <p id="op3">Pós-Graduação</p>
-            <p id="op4">Pricing</p>
-            <p id="op5">Pricing</p>
-            <p id="op6">Pricing</p>
-            <p id="degrade"></p>
-            <p id="titulo">Ciências Sociais</p>
-            <p id="sub">Tudo que você precisa saber sobre os curos dessa área do conhecimento
-            
+        <img src="image/Imagem_Título.png" id="img_title">
+        <p id="degrade"></p>
+    <header>
+        <nav>
+            <ul>
+                <p id="menu"></p>
+                <li>
+                    <a href="index.html" id="op1">Home</a>
+                </li>
+                <li>
+                   <div>
+                    <select  id="op2" style="background-color: #133a54; border: none; color: white;">
+                        Graduação
+                        <option value="">Bacharelado</option>
+                        <option value="">Licenciatura</option>
+                        <option value="">Tecnólogo</option>
+                    </select>
+                    </div>
+                </li>
+                <li>
+                    <select href="" id="op3">Pós-Graduação</select>
+                </li>   
+            </ul>      
         </nav>
+    </header>
+
+            <p id="titulo">Ciências Sociais</p>
+            <p id="sub">Tudo que você precisa saber sobre os curos dessa área do conhecimento</p> 
 
         <section class="inicio">
             <!-- Título -->
@@ -50,8 +65,10 @@
                     <p id="corpo"></p>
                     <p id="img1"><img src="image/maos.png"></p>
                         <p id="nome">Administração</p>
-                        <p id="txtcorpo">Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem temporibus. In labore obcaecati in amet.</p>
-                        <p id="txtcorpo2">Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porra qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem temporibus. In labore obcaecati in recusandae vero ut rerum quibusdam.Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem tempo.Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae .</p>
+                        <p id="txtcorpo">Administração é a ciência que se dedica ao estudo e gestão de organizações, sejam elas públicas ou privadas. O principal objetivo da Administração é promover a eficiência na gestão de organizações, visando atender às necessidades e demandas da sociedade e do mercado. Para isso, a área utiliza conhecimentos, técnicos e ferramentas específicas para gerir recursos e processos.</p>
+                        <p id="txtcorpo2">O curso de administração é uma graduação que prepara os estudantes para atuarem como gestores em empresas públicas ou privadas. O currículo inclui disciplinas como contabilidade, finanças, marketing, gestão de pessoas, empreendedorismo, estratégia e tomada de decisões. Além disso, muitas instituições oferecem atividades extracurriculares, como projetos de consultoria empresarial, estágios e intercâmbios internacionais, para complementar a formação dos alunos.
+                            O curso pode ser oferecido tanto na modalidade presencial quanto a distância, com duração média de quatro anos. Durante a graduação, os estudantes também têm a oportunidade de realizar pesquisas e desenvolver projetos práticos que contribuem para a formação de uma visão crítica e analítica sobre o mercado e o ambiente empresarial.
+                            Ao final da graduação, o estudante estará apto a atuar em diferentes áreas da empresa, como financeira, de recursos humanos, de marketing, de produção, entre outras, podendo exercer funções de liderança, planejamento estratégico e gestão de equipes.</p>
 
                 <!-- Arquitetura -->
                     <p id="img2"> <img src="image/planta.png"> </p>
@@ -63,30 +80,42 @@
                     <p id="retangulo2"></p>
                     <p id="img3"> <img src="image/reportagem.png"> </p>
                         <p id="nome3">Jornalismo</p>
-                        <p id="txtcorpo3">Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesen qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem tempo</p>
+                        <p id="txtcorpo3">Jornalismo é a atividade informativa, realizada periodicamente e difundida através dos meios de comunicação de massas (imprensa, rádio, televisão, imprensa online). O jornalismo está incluído no universo da comunicação, pois transmite uma mensagem específica para um vasto número de receptores. Um indivíduo que se ocupa do jornalismo, ou seja, o jornalista pode trabalhar em várias áreas da imprensa, como jornais, revistas, televisão, rádio, sites, blogues, em assessorias de imprensa, etc.</p>
 
-                        <p id="txtcorpo32">Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem temporibus. In labore obcaecati in recusandae vero ut rerum quibusdam.Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro.ione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id gobcaecati in recusandae vero ut rerum quibusdam.</p>
+                        <p id="txtcorpo32">O jornalismo propriamente dito surgiu a partir do séc. XIX, intimamente ligado ao desenvolvimento dos meios de comunicação. Os modernos avanços técnicos (radiofusão, televisão) tiveram uma incidência decisiva sobre a linguagem jornalística, a qual teve que se adaptar às necessidades específicas de cada meio. Esta especialização afeta também o tipo de periodicidade da publicação ou programa informativo: os diários oferecem a atualidade imediata das notícias, enquanto que os semanários, mensais, etc., analisam mais pormenorizadamente e se centram em temas mais concretos.</p>
 
                 <!-- Direito -->
                     <p id="img4"> <img src="image/tribuna.png"> </p>
                         <p id="nome4">Direito</p>
-                        <p id="txtunico2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo facilis. Quisquam dolores nulla, officia, id hic ipsam ab nesciunt maxime dolore officiis praesentium accusantium blanditiis, cupiditate dolor vel eum Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae assumenda necessitatibus rem a? Aliquam culpa voluptas modi velit similique dolorem, nulla perspiciatis eius rem, quasi quae, repudiandae earum enim ab quo accusamus ipsa neque! Cupiditate libero itaque nesciunt soluta? Laboriosam perferendis eos quisquam eum placeat architecto tempore enim odit. At impedit distinctio qui earum asperiores nostrum debitis laborum repellendus est, nobis ullam? Corporis, numquam cum. Similique maxime voluptate ipsam. Consectetur natus ad incidunt aliquid ipsam, hic commodi molestiae aperiam. Exercitationem, optio fuga consequuntur porro tenetur rem? Veritatis nesciunt voluptatibus quae quidem ducimus. Nam vitae vero voluptates consectetur corrupti minus. Atque facilis nobis perspiciatis possimus veritatis amet optio? Officiis totam animi ipsum incidunt, modi hic beatae molestias ab consequatur officia odio cumque ea iusto laboriosam deserunt optio facilis expedita, alias quos doloremque, dolore accusantium quidem laudantium est? Dicta neque doloribus rem sed minima, obcaecati aliquid quos.</p>  
+                        <p id="txtunico2">O Direito é a disciplina acadêmica que estuda o conjunto de leis e regulamentos que regem a sociedade. Ao longo da faculdade, os estudantes aprendem como interpretar, cumprir e aplicar as leis, bem como as responsabilidades das entidades públicas.
+                            A faculdade de direito é uma das opções mais populares entre os estudantes que desejam seguir uma carreira na área jurídica. É uma formação de ensino superior que oferece formação teórica e prática para aqueles que desejam se tornar advogados, juízes, promotores, delegados, entre outras profissões relacionadas ao campo do direito.
+                            Durante o curso de direito, os alunos aprendem sobre diversas áreas do conhecimento, tais como direito civil, penal, trabalhista, tributário, ambiental, entre outros. Além disso, eles têm a oportunidade de aprofundar seus conhecimentos em áreas específicas, através de disciplinas optativas e atividades extracurriculares.
+                            A faculdade de direito também oferece uma formação que visa desenvolver habilidades práticas, como a capacidade de argumentação, de redação jurídica, de interpretação de leis, de resolução de conflitos, entre outras. Para isso, são oferecidas atividades como simulações de julgamentos, estágios em escritórios de advocacia, atendimento jurídico à população, entre outras atividades.</p>  
     </div>
     
                 <!-- Sociologia -->
                     <p id="retangulo3"></p>
                     <p id="img5"> <img src="image/people.png"> </p>
                         <p id="nome5">Sociologia</p>
-                        <p id="txtcorpo5">Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesen qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem tempo</p>
+                        <p id="txtcorpo5">A Sociologia é a ciência que estuda a sociedade e os fenômenos que nela ocorrem sejam eles culturais, econômicos, religiosos.
+                            Ela possui basicamente cinco elementos: a estrutura social, os grupos sociais, a família, as classes sociais e os papéis que o indivíduo ocupa em sociedade.
+                            A sociologia busca explicar os vários fatores que diferenciam o comportamento humano ou, pelo contrário, porque grupos sociais diversos tendem a comportar-se de maneira semelhante.</p>
 
-                        <p id="txtcorpo52">Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem temporibus. In labore obcaecati in recusandae vero ut rerum quibusdam.Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro.ione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id gobcaecati in recusandae vero ut rerum quibusdam.</p>
+                        <p id="txtcorpo52">Para o estudo sociológico se considera o grupo social, as interações entre os indivíduos e os meios usados para a comunicação destes indivíduos no grupo.
+                            Assim, o objeto de estudo do sociólogo pode ser as diferentes organizações humanas como igrejas, empresas, escolas, hospitais, times esportivos, etc. ou seja, todas as instituições sociais.
+                            Igualmente analisa grupos culturais, a forma e o impacto da gestão governamental dentro de um determinado grupo.
+                            Assim, a sociologia parte de um determinado conceito de sociedade para investigar sua estrutura social e as relações sociais neste meio.</p>
 
                 <!-- Teologia -->
                     <p id="img6"> <img src="image/mundo.png"> </p>
                     <p id="nome6">Teologia</p>
-                        <p id="txtcorpo6">Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesen qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem tempo</p>
+                        <p id="txtcorpo6">A Teologia é a ciência que estuda as crenças e práticas religiosas. Ela busca compreender a origem, natureza e propósito da fé, bem como as experiências espirituais. A Teologia utiliza uma abordagem sistemática para analisar textos sagrados, tradições e ensinamentos, além de investigar as implicações éticas e morais das crenças.
+                            O termo Teologia é derivado do grego, resultando da junção das palavras theo (Deus) e logos (estudo). A etimologia da palavra resume, de forma concisa, o enfoque dessa ciência, que é responsável por analisar as questões que englobam a fé e a crença humana.</p>
 
-                        <p id="txtcorpo62">Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro qui doloribus suscipit aut molestiae quae et blanditiis officiis? Et obcaecati magni ea omnis soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratione et ipsa mollitia et dolorem temporibus. In labore obcaecati in recusandae vero ut rerum quibusdam.Lorem ipsum dolor sit amet. Quo esse quidem sed beatae magni est ducimus porro.ione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id gobcaecati in recusandae vero ut rerum quibusdam.</p>
+                        <p id="txtcorpo62">O curso de Teologia abrange a história, a doutrina e a prática da religião. Os alunos que se matriculam neste curso se comprometem a estudar e aprofundar seus conhecimentos sobre as principais religiões do mundo, seus ensinamentos e sua herança.
+                            A Teologia abrange diversas áreas de estudo, incluindo história da religião, ética, direito, psicologia, sociologia, filosofia, antropologia e muito mais. Estudar Teologia é importante para aqueles que desejam entender os ensinamentos religiosos e seu significado para a vida humana.
+                            Além disso, o curso ajuda a desenvolver uma compreensão mais profunda sobre a natureza humana e o propósito da vida. O curso de Teologia também oferece oportunidades para aqueles que buscam se envolver em atividades missionárias, ensinar e trabalhar como líderes religiosos.
+                            Estudar Teologia também pode ajudar os alunos a se prepararem para carreiras como pastores, padres, missionários, professores de religião, escritores e muito mais.</p>
                         
 
         </section>
@@ -94,9 +123,15 @@
         <footer>
             <p id="rodape"></p>
 
-            <p id="sbm">Saiba mais</p>
+            <p id="fontes">Fontes de pesquisa </p>
             
-            <p id="infosbm">Lorem ipsum dolor sit amet. Q soluta sit tempora similique qui consequatur ratione est esse maxime et odio quisquam! Ut sunt quae ut praesentium quidem id galisum ratioit amet. Quo esse quidem sed beatae magni est ducimus porro.ione estm! Ut sunt quae ut praesentium quidem id gobcaecati in recusandae vero ut rerum quibusdam.</p>
+            <p id="flinks">Quero Bolsa <a href="https://querobolsa.com.br/" style="color: white; text-decoration: none;">https://querobolsa.com.br/</a> <br><br>
+                Guia da Carreira <a href="https://www.guiadacarreira.com.br/" style="color: white; text-decoration: none;">https://www.guiadacarreira.com.br/  </a> <br><br>
+                Educa Mais Brasil <a href="https://www.educamaisbrasil.com.br/" style="color: white; text-decoration: none;">https://www.educamaisbrasil.com.br/</a>
+                </p>
+
+                <p id="sn">Sobre nós</p>
+                <p id="txtsn">Este é um projeto feito pelos alunos: Luan Gomes Ribeiro, Nicolly Muniz Vassão, Rayane Gomes da Silva e Vitória Dominique Silva de Lima, estudantes do 2º ano do curso técnico de Desenvolvimento de Sistemas da Etec de Registro.</p>
                 
                     <p id="ano">© 2023 Ciências Sociais - Projeto Feira de Profissões</p>
                 </p>

@@ -3,6 +3,7 @@ body{
     height: 5307;
     background-color: #0E2C40;
     font-family: Archivo;
+    padding-top: 90px;
 }
 
 #img_title{
@@ -11,6 +12,13 @@ body{
     height: 800px;
     left: 0px;
     top: -8px;
+}
+
+header{
+    position: fixed;
+    top: -20px;
+    left: -38px;
+    z-index: 1;
 }
 
 #degrade{
@@ -25,96 +33,64 @@ body{
 
 #op1{
     position: absolute;
-    width: 46px;
-    height: 16px;
-    left: 340px;
-    top: 37px;   
+    width: 68px;
+    height: 23px;
+    left: 322px;
+    top: 50px;
+    
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 16px;
-    color: #fff; 
+    text-decoration: none;
+
+    color: #ffffff; 
 }
 
 #op2{
     position: absolute;
-    width: 53px;
-    height: 16px;
-    left: 446px;
-    top: 37px;   
+    width: 168px;
+    height: 40px;
+    left: 615px;
+    top: 40px;   
+
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 16px;
-    color: #fff;
+    text-decoration: none;
+
+    color: #ffffff;
 }
 
 #op3{
     position: absolute;
-    width: 46px;
-    height: 16px;
-    left: 555px;
-    top: 37px;    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px; 
-    color: #fff;  
-}
+    width: 200px;
+    height: 30px;
+    left: 922px;
+    top: 50px;    
 
-#op4{
-    position: absolute;
-    width: 53px;
-    height: 16px;
-    left: 661px;
-    top: 37px; 
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 16px;
-    color: #fff; 
+    text-decoration: none;
+
+    color: #ffffff;
 }
 
-#op5{
-    position: absolute;
-    width: 53px;
-    height: 16px;
-    left: 770px;
-    top: 37px;
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    color: #fff;
-}
-
-#op6{
-    position: absolute;
-    width: 53px;
-    height: 16px;
-    left: 879px;
-    top: 36px;   
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    color: #fff; 
-}
-
-.menu{
+#menu{
     width: 1920px;
-    height: 800;
-    position: absolute;
+    height: 89px;
     left: 0px;
-    top: -9px;
-    background: #0C2535;
+    top: -20px;
+    
+    background: #133A54;
 }
+
 #titulo{
     position: absolute;
     width: 617px;
@@ -128,6 +104,7 @@ body{
     line-height: 80px;  
     color: #ffffff;
 }
+
 #sub{
     position: absolute;
     width: 477px;
@@ -141,6 +118,7 @@ body{
     line-height: 30px;
     color: #ffffff; 
 }
+
 #sombra{
     position: absolute;
     width: 529.13px;
@@ -549,7 +527,7 @@ color: #ffffff;
     width: 482px;
     height: 385px;
     left: 323px;
-    top: 6193px;
+    top: 6130px;
     
     font-family: Archivo;
     font-style: normal;
@@ -562,39 +540,68 @@ color: #ffffff;
 
 /*FOOTER*/
 
-#sbm{
+#fontes{
     position: absolute;
-    width: 254px;
+    width: 286px;
     height: 68px;
-    left: 835px;
-    top: 6774px;
+    left: 320px;
+    top: 6789px;
     
     font-family: Archivo;
     font-style: normal;
     font-weight: 400;
-    font-size: 45px;
-    line-height: 49px;
-    
+    font-size: 32px;
+    line-height: 35px;
+
     color: #ffffff;
-    
 }
 
-#infosbm{
+#flinks{
     position: absolute;
-    width: 946px;
+    width: 531px;
     height: 104px;
-    left: 489px;
-    top: 6876px;
+    left: 321px;
+    top: 6844px;
     
     font-family: Archivo;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 20px;
-    text-align: center;
     
-    color: #FFFFFF;
+    color: #ffffff;
+}
+
+#sn{
+    position: absolute;
+    width: 286px;
+    height: 68px;
+    left: 1029px;
+    top: 6789px;
     
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    
+    color: #ffffff;
+}
+
+#txtsn{
+    position: absolute;
+    width: 531px;
+    height: 104px;
+    left: 1030px;
+    top: 6844px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #ffffff;
 }
 
 #rodape{
