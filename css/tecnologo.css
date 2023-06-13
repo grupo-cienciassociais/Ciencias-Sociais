@@ -25,7 +25,7 @@ body{
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF; 
+    color: #ffffff; 
     }
     
     #adm2{
@@ -39,7 +39,7 @@ body{
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #dir2{
@@ -53,7 +53,7 @@ body{
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #teo2{
@@ -67,7 +67,7 @@ body{
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #oqe2{
@@ -82,7 +82,7 @@ body{
     font-size: 22px;
     line-height: 24px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #oqee2{
@@ -97,7 +97,7 @@ body{
     font-size: 22px;
     line-height: 24px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #tit2a{
@@ -111,7 +111,7 @@ body{
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #txt2a{
@@ -125,7 +125,7 @@ body{
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #hb2a{
@@ -139,7 +139,7 @@ body{
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #td2a{
@@ -153,7 +153,7 @@ body{
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     
@@ -168,7 +168,7 @@ body{
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mds2a{
@@ -182,5 +182,63 @@ body{
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
+
+#nome2{
+    position: absolute;
+    width: 305px;
+    height: 88px;
+    left: 320px;
+    top: 2680px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    
+    color: #ffffff;
+}
+
+#txt2{
+    position: absolute;
+    width: 945px;
+    height: 263px;
+    left: 320px;
+    top: 2802px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    
+    color: #FFFFFF;    
+}
+
+#img22{
+    position: absolute;
+    width: 650px;
+    height: 371px;
+    left: 320px;
+    top: 3075px;
+    
+    border-radius: 8px;
+}
+
+#hn2{
+    position: absolute;
+    width: 393px;
+    height: 363px;
+    left: 960px;
+    top: 3065px;
+    
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+}
