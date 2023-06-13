@@ -21,18 +21,38 @@
                     <a href="index.html" id="op1">Home</a>
                 </li>
                 <li>
-                   <div>
-                    <select  id="op2" style="background-color: #133a54; border: none; color: white;">
-                        Graduação
-                        <option value="">Bacharelado</option>
-                        <option value="">Licenciatura</option>
-                        <option value="">Tecnólogo</option>
-                    </select>
+                    <div>
+                      <div class="accordion" style="position: absolute; top: 32px; left: 600px;">
+                        <input type="radio" name="radio-a" id="check1" checked>
+                        <label class="accordion-label" for="check1">Graduação</label>
+                        <div class="accordion-content">
+                          <p>
+                            <a href="" style="color: white; text-decoration: none;">Bacharelado <br></a>
+                            <a href="" style="color: white; text-decoration: none;">Licenciatura <br></a>
+                            <a href="tecnologo.html" style="color: white; text-decoration: none;">Tecnólogo <br></a>
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                </li>
-                <li>
-                    <select href="" id="op3">Pós-Graduação</select>
-                </li>   
+                  </li>
+                  <li>
+                    <div class="accordion" style="width: 230px; position: absolute; top: 32px; left: 922px;">
+                      <input type="radio" name="radio-a" id="check2">
+                      <label class="accordion-label" for="check2">Pós-graduação</label>
+                      <div class="accordion-content">
+                        <p>
+                          <a href="" style="color: white; text-decoration: none;">Mestrado</a>
+                          <a href="" style="color: white; text-decoration: none;">Doutorado</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="accordion" style="width: 100px; position: absolute; top: 40px; right: 10px; font-size: 35px;">
+                        <input type="radio" name="radio-a" id="check3">
+                        <label for="check3">X</label>
+                      </div>
+                  </li>
+                  
             </ul>      
         </nav>
     </header>
