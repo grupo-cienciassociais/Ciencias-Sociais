@@ -24,6 +24,17 @@
     
 }
 
+    
+#degrad{
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, rgba(14, 44, 64, 0) 0%, #0E2C40 100%)
+}
+
     #home3{
     position: absolute;
     width: 68px;
@@ -100,7 +111,7 @@
     width: 1277px;
     height: 120px;
     left: 320px;
-    top: 1033px;
+    top: 1065px;
     font-family: 'Archivo';
     font-style: normal;
     font-weight: 400;
@@ -191,7 +202,6 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    text-decoration-line: underline;
     color: #FFFFFF;
     }
     
