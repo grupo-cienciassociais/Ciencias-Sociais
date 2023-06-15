@@ -1,0 +1,252 @@
+.lic{
+    position: absolute;
+    width: 1920px;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    background: #133A54;
+    }
+    
+#tit{
+    position: absolute;
+    width: 617px;
+    height: 79px;
+    left: 686px;
+    top: 319px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 82px;
+    
+    color: #FFFFFF;
+    
+}
+
+    #home3{
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 320px;
+    top: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    color: #FFFFFF;
+    }
+    
+    #soc3{
+    position: absolute;
+    width: 126px;
+    height: 23px;
+    left: 454px;
+    top: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    color: #FFFFFF;
+    }
+    
+    #teo3{  
+    position: absolute;
+    width: 113px;
+    height: 23px;
+    left: 646px;
+    top: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    color: #FFFFFF;
+    }
+    
+    #oqe3c{
+    position: absolute;
+    width: 372px;
+    height: 39px;
+    left: 808px;
+    top: 830px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    color: #FFFFFF;
+    }
+    
+    #oqe3cc{
+    position: absolute;
+    width: 846px;
+    height: 102px;
+    left: 530px;
+    top: 931px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    
+    #oqe3ccc{
+    position: absolute;
+    width: 1277px;
+    height: 120px;
+    left: 320px;
+    top: 1033px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    
+    #txt3c{
+    position: absolute;
+    width: 523px;
+    height: 440px;
+    left: 1013px;
+    top: 1405px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
+    
+    #td3c{
+    position: absolute;
+    width: 553px;
+    height: 148px;
+    left: 1013px;
+    top: 1879px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
+    
+    #mdt3c{
+    position: absolute;
+    width: 526px;
+    height: 159px;
+    left: 1013px;
+    top: 2033px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
+    
+    #hb3c{
+    position: absolute;
+    width: 590px;
+    height: 356px;
+    left: 339px;
+    top: 1940px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    }
+    
+    #mds3c{
+    position: absolute;
+    width: 920px;
+    height: 170px;
+    left: 320px;
+    top: 2258px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
+    
+    #txt3t{
+    position: absolute;
+    width: 939px;
+    height: 287px;
+    left: 320px;
+    top: 2564px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    }
+    
+    #hb3d{
+    position: absolute;
+    width: 624px;
+    height: 475px;
+    left: 347px;
+    top: 2890px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    }
+    
+    #td3d{
+    position: absolute;
+    width: 677px;
+    height: 123px;
+    left: 320px;
+    top: 3384px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
+    
+    #mdt3d{
+    position: absolute;
+    width: 630px;
+    height: 208px;
+    left: 320px;
+    top: 3527px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
+    
+    #mds3d{
+    position: absolute;
+    width: 737px;
+    height: 125px;
+    left: 321px;
+    top: 3735px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
