@@ -81,14 +81,14 @@ input:checked ~ .accordion-content {
     position: absolute;
     width: 1920px;
     height: 800px;
-    left: 0px;
+    left: -1px;
     top: -8px;
 }
 
 header{
     position: fixed;
     top: -20px;
-    left: -38px;
+    left: -39.5px;
     z-index: 1;
 }
 
@@ -99,7 +99,7 @@ header{
     left: 0px;
     top: 3px;
     
-    background: linear-gradient(180deg, rgba(14, 44, 64, 0) 0%, #0E2C40 100%);
+    background: linear-gradient(180deg, #0e2c4000 0%, #0E2C40 100%);
 }
 
 #op1{
@@ -107,7 +107,7 @@ header{
     width: 68px;
     height: 23px;
     left: 322px;
-    top: 50px;
+    top: 54px;
     
     font-family: Archivo;
     font-style: normal;
@@ -123,7 +123,7 @@ header{
 #menu{
     width: 1920px;
     height: 89px;
-    left: 0px;
+    left: 10px;
     top: -20px;
     
     background: #133A54;
@@ -171,7 +171,7 @@ header{
 position: absolute;
 width: 390px;
 height: 88px;
-left: 789px;
+left: 778px;
 top: 819px;
 font-family: Archivo;
 font-style: normal;
@@ -200,380 +200,46 @@ color: #ffffff;
 
 #intro2{
     position: absolute;
-    width: 621px;
+    width: 739px;
     height: 358px;
     left: 320px;
-    top: 1120px;
+    top: 1170px;
+
     font-family: Archivo;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;  
+    font-size: 26px;
+    line-height: normal;
     color: #ffffff;
+}
+
+#mentes{
+    position: absolute;
+    left: 1150px;
+    top: 1200px;
+    width: 542px;
+    height: 350px;
 }
 
 #intro3{
     position: absolute;
-    width: 624px;
+    width: 737px;
     height: 336px;
-    left: 970px;
-    top: 1120px;
+    left: 950px;
+    top: 1920px;
+
     font-family: Archivo;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 26px;
+    line-height: normal;
     color: #ffffff;
 }
 
-/*ADMINISTRAÇÃO*/
-
-#corpo{
-position: absolute;
-width: 1920px;
-height: 800px;
-left: 1px;
-top: 1735px;
-
-background: #082334;
-}
-
-#nome{
-position: absolute;
-width: 434px;
-height: 88px;
-left: 1077px;
-top: 1776px;
-
-font-family: Archivo;
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 70px;
-
-color: #ffffff;
-}
-
-#img1{
-position: absolute;
-width: 630px;
-height: 346px;
-left: 319px;
-top: 1779px;
-border-radius: 8px;
-}
-
-#txtcorpo{
-position: absolute;
-width: 523px;
-height: 251px;
-left: 1077px;
-top: 1930px;
-    
-font-family: Archivo;
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 24px;
-    
-color: #ffffff;    
-}
-
-#txtcorpo2{
+#sociedade{
     position: absolute;
-    width: 1281px;
-    height: 226px;
-    left: 319px;
-    top: 2230px;
-
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 24px;
-    color: #ffffff;
-}
-
-/*ARQUITETURA*/
-
-#img2{
-    position: absolute;
-    width: 539px;
-    height: 635px;
-    left: 1058px;
-    top: 2658px;
-    border-radius: 8px;
-}
-
-#nome2{
-    position: absolute;
-    width: 410px;
-    height: 88px;
-    left: 323px;
-    top: 2597px;
-
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 70px;
-
-    color: #ffffff;
-}
-
-#txtunico{
-    position: absolute;
-    width: 621px;
-    height: 558px;
-    left: 320px;
-    top: 2755px;
-
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;
-
-    color: #ffffff;
-}
-
-/*JORNALISMO*/
-
-#retangulo2{
-    position: absolute;
-    width: 1920px;
-    height: 800px;
-    left: 0px;
-    top: 3345px;
-    background: #082334;
-}
-
-#img3{
-    position: absolute;
-    width: 647px;
-    height: 408px;
-    left: 323px;
-    top: 3676px;
-}
-
-#nome3{
-    position: absolute;
-    width: 322px;
-    height: 88px;
-    left: 323px;
-    top: 3358px;
-
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 85px;
-
-    color: #ffffff;
-}
-
-#txtcorpo3{
-    position: absolute;
-    width: 1277px;
-    height: 152px;
-    left: 323px;
-    top: 3510px;
-
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;
-    color: #ffffff;
-}
-
-#txtcorpo32{
-    position: absolute;
-    width: 522px;
-    height: 364px;
-    left: 1078px;
-    top: 3698px;
-
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 25px;
-
-    color: #ffffff;
-}
-
-/* DIREITO */
-
-#img4{
-    position: absolute;
-    width: 539px;
-    height: 635px;
-    left: 1061px;
-    top: 4256px;    
-}
-
-#nome4{
-    position: absolute;
-    width: 410px;
-    height: 88px;
-    left: 323px;
-    top: 4195px;
-    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 70px;
-    
-    color: #ffffff;
-}
-
-#txtunico2{
-    position: absolute;
-    width: 621px;
-    height: 558px;
-    left: 320px;
-    top: 4353px;
-    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 24px;
-    
-    color: #FFFFFF;    
-}
-
-/* SOCIOLOGIA */
-
-#retangulo3{
-    position: absolute;
-    width: 1920px;
-    height: 800px;
-    left: 0px;
-    top: 4945px;
-    
-    background: #082334;
-}
-
-#img5{
-    position: absolute;
-    width: 630px;
-    height: 346px;
-    left: 320px;
-    top: 5029px;
-}
-
-#nome5{
-    position: absolute;
-    width: 325px;
-    height: 88px;
-    left: 1078px;
-    top: 4960px;
-    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 70px;
-    
-    color: #FFFFFF;
-    
-}
-
-#txtcorpo5{
-    position: absolute;
-    width: 522px;
-    height: 251px;
-    left: 1078px;
-    top: 5112px;
-    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 24px;
-    
-    color: #ffffff;
-}
-
-#txtcorpo52{
-    position: absolute;
-    width: 1280px;
-    height: 226px;
-    left: 320px;
-    top: 5480px;
-    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 24px;
-    
-    color: #ffffff;
-    
-}
-
-/* TEOLOGIA */
-
-#img6{
-    position: absolute;
-    width: 735px;
-    height: 422px;
-    left: 865px;
-    top: 6136px;
-    
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 8px;
-}
-
-#nome6{
-    position: absolute;
-    width: 322px;
-    height: 88px;
-    left: 323px;
-    top: 5799px;
-    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 70px;
-    
-    color: #ffffff;
-}
-
-#txtcorpo6{
-    position: absolute;
-    width: 1277px;
-    height: 152px;
-    left: 323px;
-    top: 5977px;
-    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 24px;
-    
-    color: #ffffff;
-}
-
-#txtcorpo62{
-    position: absolute;
-    width: 482px;
-    height: 385px;
-    left: 323px;
-    top: 6130px;
-    
-    font-family: Archivo;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 24px;
-    
-    color: #ffffff;
+    left: 250px;
+    top: 2000px;
 }
 
 /*FOOTER*/
@@ -583,7 +249,7 @@ color: #ffffff;
     width: 286px;
     height: 68px;
     left: 320px;
-    top: 6789px;
+    top: 2589px;
     
     font-family: Archivo;
     font-style: normal;
@@ -599,7 +265,7 @@ color: #ffffff;
     width: 531px;
     height: 104px;
     left: 321px;
-    top: 6844px;
+    top: 2644px;
     
     font-family: Archivo;
     font-style: normal;
@@ -615,7 +281,7 @@ color: #ffffff;
     width: 286px;
     height: 68px;
     left: 1029px;
-    top: 6789px;
+    top: 2589px;
     
     font-family: 'Archivo';
     font-style: normal;
@@ -631,7 +297,7 @@ color: #ffffff;
     width: 531px;
     height: 104px;
     left: 1030px;
-    top: 6844px;
+    top: 2644px;
     
     font-family: 'Archivo';
     font-style: normal;
@@ -647,7 +313,7 @@ color: #ffffff;
     width: 1920px;
     height: 396px;
     left: 2px;
-    top: 6695px;
+    top: 2495px;
     
     background: #133a54; 
 }
@@ -657,7 +323,7 @@ color: #ffffff;
     width: 847px;
     height: 39px;
     left: 597px;
-    top: 7203px;
+    top: 2903px;
     font-family: Archivo;
     font-style: normal;
     font-weight: 400;
