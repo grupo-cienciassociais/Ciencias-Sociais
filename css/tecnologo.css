@@ -18,7 +18,7 @@ input {
     position: absolute;
     width: 1920px;
     height: 800px;
-    left: -2px;
+    left: 0px;
     top: -8px;
 }
 
@@ -39,7 +39,7 @@ header {
 }
 
 #menu {
-    width: 1920px;
+    width: 1999px;
     height: 89px;
     left: 0px;
     top: -20px;
@@ -634,4 +634,8 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+*{
+    margin-left: -25px;
 }

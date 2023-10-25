@@ -1,5 +1,5 @@
 body {
-    width: 1920px;
+    width: 1900px;
     height: 5307;
     background-color: #0E2C40;
     font-family: Archivo;
@@ -16,14 +16,14 @@ input {
     position: absolute;
     width: 1920px;
     height: 800px;
-    left: -1px;
+    left: 1.5px;
     top: -8px;
 }
 
 header {
     position: fixed;
     top: -20px;
-    left: -40px;
+    left: 50px;
     z-index: 1;
 }
 
@@ -31,7 +31,7 @@ header {
     position: absolute;
     width: 1920px;
     height: 800px;
-    left: 0px;
+    left: 1.5px;
     top: 3px;
 
     background: linear-gradient(180deg, #0e2c4000 0%, #0E2C40 100%);
@@ -266,4 +266,8 @@ header {
     line-height: 39px;
     color: #b9b8b866;
 
+}
+
+*{
+    margin-left: -27px;
 }
