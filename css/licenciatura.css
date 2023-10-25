@@ -1,262 +1,369 @@
-.lic{
-    position: absolute;
-    width: 1920px;
+html {
+    scroll-behavior: smooth;
+}
+
+.lic {
+    position: fixed;
+    width: 1910px;
     height: 89px;
     left: 0px;
     top: 0px;
     background: #133A54;
-    }
-    
-#tit{
+    z-index: 1;
+}
+
+#tit {
     position: absolute;
     width: 617px;
     height: 79px;
     left: 686px;
     top: 319px;
-    
-    font-family: 'Archivo';
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 600;
     font-size: 75px;
     line-height: 82px;
-    
+
     color: #FFFFFF;
-    
+
 }
 
-    
-#degrad{
+#img {
+    width: 1920px;
+}
+
+#degrad {
     position: absolute;
     width: 1920px;
-    height: 800px;
+    height: 801px;
     left: 0px;
-    top: 0px;
-    
+    top: 1px;
+
     background: linear-gradient(180deg, rgba(14, 44, 64, 0) 0%, #0E2C40 100%)
 }
 
-    #home3{
+#home3 {
     position: absolute;
     width: 68px;
     height: 23px;
-    left: 320px;
+    left: 720px;
     top: 33px;
-    font-family: 'Inter';
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
+    text-decoration: none;
     color: #FFFFFF;
-    }
-    
-    #soc3{
+}
+
+#soc3 {
     position: absolute;
     width: 126px;
     height: 23px;
-    left: 454px;
+    left: 854px;
     top: 33px;
-    font-family: 'Inter';
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
+    text-decoration: none;
     color: #FFFFFF;
-    }
-    
-    #teo3{  
+}
+
+#teo3 {
     position: absolute;
     width: 113px;
     height: 23px;
-    left: 646px;
+    left: 1046px;
     top: 33px;
-    font-family: 'Inter';
+
+    font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
+    text-decoration: none;
     color: #FFFFFF;
-    }
-    
-    #oqe3c{
+}
+
+#oqe3c {
     position: absolute;
     width: 372px;
     height: 39px;
-    left: 808px;
+    left: 817px;
     top: 830px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 30px;
     color: #FFFFFF;
-    }
-    
-    #oqe3cc{
+}
+
+#oqe3cc {
     position: absolute;
     width: 846px;
     height: 102px;
     left: 530px;
     top: 931px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-    }
-    
-    #oqe3ccc{
+}
+
+#oqe3ccc {
     position: absolute;
     width: 1277px;
     height: 120px;
     left: 320px;
     top: 1065px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-    }
-    
-    #txt3c{
+}
+
+#txt3c {
     position: absolute;
     width: 523px;
     height: 440px;
     left: 1013px;
     top: 1405px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     color: #FFFFFF;
-    }
-    
-    #td3c{
+}
+
+#td3c {
     position: absolute;
     width: 553px;
     height: 148px;
     left: 1013px;
     top: 1879px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     color: #FFFFFF;
-    }
-    
-    #mdt3c{
+}
+
+#mdt3c {
     position: absolute;
     width: 526px;
     height: 159px;
     left: 1013px;
     top: 2033px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     color: #FFFFFF;
-    }
-    
-    #hb3c{
+}
+
+#hb3c {
     position: absolute;
     width: 590px;
     height: 356px;
     left: 339px;
     top: 1940px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
     color: #FFFFFF;
-    }
-    
-    #mds3c{
+}
+
+#mds3c {
     position: absolute;
     width: 920px;
     height: 170px;
     left: 320px;
     top: 2258px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     color: #FFFFFF;
-    }
-    
-    #txt3t{
+}
+
+#txt3t {
     position: absolute;
     width: 939px;
     height: 287px;
     left: 320px;
     top: 2564px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     color: #FFFFFF;
-    }
-    
-    #hb3d{
+}
+
+#hb3d {
     position: absolute;
     width: 624px;
     height: 475px;
     left: 347px;
     top: 2890px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
     color: #FFFFFF;
-    }
-    
-    #td3d{
+}
+
+#td3d {
     position: absolute;
     width: 677px;
     height: 123px;
     left: 320px;
     top: 3384px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     color: #FFFFFF;
-    }
-    
-    #mdt3d{
+}
+
+#mdt3d {
     position: absolute;
     width: 630px;
     height: 208px;
     left: 320px;
     top: 3527px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     color: #FFFFFF;
-    }
-    
-    #mds3d{
+}
+
+#mds3d {
     position: absolute;
     width: 737px;
     height: 125px;
     left: 321px;
     top: 3735px;
-    font-family: 'Archivo';
+    font-family: Archivo;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
     color: #FFFFFF;
-    }
+}
+
+#fontes {
+    position: absolute;
+    width: 286px;
+    height: 68px;
+    left: 314px;
+    top: 2589px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+
+    color: #ffffff;
+}
+
+#flinks {
+    position: absolute;
+    width: 531px;
+    height: 104px;
+    left: 321px;
+    top: 2644px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #ffffff;
+}
+
+#sn {
+    position: absolute;
+    width: 286px;
+    height: 68px;
+    left: 1029px;
+    top: 2589px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+
+    color: #ffffff;
+}
+
+#txtsn {
+    position: absolute;
+    width: 531px;
+    height: 104px;
+    left: 1030px;
+    top: 2644px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #ffffff;
+}
+
+#rodape {
+    position: absolute;
+    width: 1920px;
+    height: 396px;
+    left: 2px;
+    top: 2495px;
+
+    background: #133a54;
+}
+
+#ano {
+    position: absolute;
+    width: 847px;
+    height: 39px;
+    left: 597px;
+    top: 2903px;
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #b9b8b866;
+
+}
+
+* {
+    margin-left: -8.5px;
+}
