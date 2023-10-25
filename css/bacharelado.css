@@ -1,9 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .bacha{
-    position: absolute;
+    position: fixed;
     width: 1920px;
     height: 89px;
     left: 0px;
     top: 0px;
+    z-index: 1;
     background: #133A54;
     }
     
@@ -13,12 +18,17 @@
     height: 23px;
     left: 320px;
     top: 33px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b73b1cfe02587f96878434a719a857504f08117a
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    text-decoration: none;
+    color: #ffffff;
     }
 
     #adm{
@@ -27,12 +37,17 @@
     height: 23px;
     left: 447px;
     top: 33px;
+<<<<<<< HEAD
+
+    text-decoration: none;
+=======
+>>>>>>> b73b1cfe02587f96878434a719a857504f08117a
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #arq{
@@ -41,12 +56,17 @@
     height: 23px;
     left: 677px;
     top: 33px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b73b1cfe02587f96878434a719a857504f08117a
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    text-decoration: none;
+    color: #ffffff;
     }
     
     #soc{
@@ -55,12 +75,17 @@
     height: 23px;
     left: 871px;
     top: 33px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b73b1cfe02587f96878434a719a857504f08117a
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    text-decoration: none;
+    color: #ffffff;
     }
     
     #dir{
@@ -74,7 +99,8 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    text-decoration: none;
+    color: #ffffff;
     }
     
     #teo{
@@ -89,24 +115,34 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
+    text-decoration: none;
     /* or 67% */
     
     
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #jor{
-        position: absolute;
+    position: absolute;
     width: 137px;
     height: 23px;
     left: 1403px;
     top: 33px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b73b1cfe02587f96878434a719a857504f08117a
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
-    color: #FFFFFF;
+    text-decoration: none;
+    color: #ffffff;
+    }
+
+    img{
+        width: 1920px;
     }
     
     #degrad{
@@ -129,7 +165,7 @@
     font-weight: 600;
     font-size: 75px;
     line-height: 82px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #oqe{
@@ -141,9 +177,9 @@
     font-family: 'Archivo';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #oqe2{
@@ -158,7 +194,7 @@
     font-size: 22px;
     line-height: 24px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #oqe3{
@@ -173,7 +209,7 @@
     font-size: 22px;
     line-height: 24px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     .rt1{
@@ -196,7 +232,7 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #tita2{
@@ -210,7 +246,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #hba{
@@ -224,7 +260,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #tma{
@@ -238,7 +274,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #bt1{
@@ -255,8 +291,9 @@
     position: absolute;
     width: 238px;
     height: 37px;
-    left: 1259px;
-    top: 2243px;
+    left: 1263px;
+    top: 2253px;
+
     font-family: 'Archivo';
     font-style: normal;
     font-weight: 400;
@@ -276,7 +313,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mds{
@@ -290,7 +327,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #txtarq{
@@ -304,7 +341,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #hbb1{
@@ -318,7 +355,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #tmb{
@@ -332,7 +369,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mdtb{
@@ -346,7 +383,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mdsb{
@@ -360,7 +397,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #titc{
@@ -374,7 +411,7 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #txtc{
@@ -388,7 +425,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #txxtc{
@@ -402,7 +439,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #hbc{
@@ -416,7 +453,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #tdc{
@@ -430,7 +467,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mdtc{
@@ -444,7 +481,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #msc{
@@ -458,7 +495,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #titd{
@@ -472,7 +509,7 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #txtd{
@@ -486,7 +523,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #hbe{
@@ -500,7 +537,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #tde{
@@ -514,7 +551,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mdte{
@@ -528,7 +565,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mde{
@@ -542,7 +579,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #titf{
@@ -556,7 +593,7 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #txtf{
@@ -570,7 +607,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #hbf{
@@ -584,7 +621,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #tdf{
@@ -598,7 +635,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mdtf{
@@ -612,7 +649,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mdsf{
@@ -626,7 +663,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #titg{
@@ -640,7 +677,7 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #txtg{
@@ -654,7 +691,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #hbg{
@@ -668,7 +705,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #tdg{
@@ -682,7 +719,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #mdtg{
@@ -696,7 +733,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     }
     
     #msg{
@@ -710,5 +747,9 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
+    }
+
+    *{
+        margin-left: -8.5px;
     }
